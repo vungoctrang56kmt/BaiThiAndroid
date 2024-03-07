@@ -1,0 +1,30 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/aj/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1390625" />
+        <entry key="..\:/aj/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1390625" />
+        <entry key="..\:/aj/app/src/main/res/layout/activity_game.xml" value="0.42857142857142855" />
+        <entry key="..\:/aj/app/src/main/res/layout/activity_level.xml" value="0.1" />
+        <entry key="..\:/aj/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/ajhoanthien/app/src/main/res/layout/activity_game.xml" value="0.2128623188405797" />
+        <entry key="..\:/ajhoanthien/app/src/main/res/layout/activity_level.xml" value="0.20742753623188406" />
+        <entry key="..\:/ajhoanthien/app/src/main/res/layout/activity_main.xml" value="0.20742753623188406" />
+        <entry key="..\:/ajxaolon/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/ajxaolon/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/ajxaolon/app/src/main/res/layout/activity_game.xml" value="0.375" />
+        <entry key="..\:/ajxaolon/app/src/main/res/layout/activity_level.xml" value="0.17447916666666666" />
+        <entry key="..\:/ajxaolon/app/src/main/res/layout/activity_main.xml" value="0.17447916666666666" />
+        <entry key="app/src/main/res/layout/activity_game.xml" value="0.15534420289855072" />
+        <entry key="app/src/main/res/layout/activity_level.xml" value="0.12907608695652173" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.12907608695652173" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

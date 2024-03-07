@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myblue" >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginEnd="211dp"
+        android:layout_toStartOf="@+id/score"
+        android:fontFamily="Arial"
+        android:text="Name"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lvdisp"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/match"
+        android:layout_alignEnd="@+id/score"
+        android:layout_alignBottom="@+id/name"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/match"
+        android:fontFamily="Arial"
+        android:text="Level"
+        android:textAlignment="viewEnd"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ans"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jumbled"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textCursorDrawable="@null"
+        android:hint="Enter Your Answer Here"
+        android:textColor="@android:color/black"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/jumbled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="67dp"
+        android:textSize="50sp"
+        android:textColor="@android:color/black"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/attemp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textAlignment="viewEnd"
+        android:textColor="@android:color/black"
+        android:text="Score"
+        android:fontFamily="Arial"
+        android:textStyle="bold"
+        android:layout_above="@+id/jumbled"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/jumbled"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="230dp"
+        android:layout_marginEnd="185dp"
+        android:layout_marginBottom="69dp"
+        android:fontFamily="Arial"
+        android:text="Star:"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/attemp"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lvdisp"
+        android:layout_alignStart="@+id/name"
+        android:layout_alignEnd="@+id/match"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="84dp"
+        android:layout_toStartOf="@+id/lvdisp"
+        android:fontFamily="Arial"
+        android:text="Attempts left"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/match"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ans"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="@color/myGreen"
+        android:text="Match"
+        android:textColor="@android:color/black" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/back"
+        android:onClick="back"
+        android:background="@color/myRed"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+</RelativeLayout>
